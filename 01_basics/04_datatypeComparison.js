@@ -1,19 +1,20 @@
 /*
-// GENERAL COMPARISO OF DATATYPES
+// GENERAL COMPARISO OF DATATYPES :
+
 console.log(2>1);
 console.log(2 >=1);
 console.log(2<1);
 console.log(2==1);
-console.log(2!=1);     (! sign is used to represent NOT)
+console.log(2!=1);     ( ! sign is used to represent NOT)
 */
 
 
 // COMPLEX COMPARISON OF DIFFERENT TYPES OF DATATYPE
 
 
-// console.log("2" > 1);  // here datatype is automatically converted from string to number and compared accordingly
+console.log("2" > 1);  // here datatype is automatically converted from string to number and compared accordingly...here output is true
 
-// console.log(2 >"1");
+console.log(2 >"1");    // output is true
 
 // COMPARISON OF NULL DATATYPE where output is in Boolwean form:
 

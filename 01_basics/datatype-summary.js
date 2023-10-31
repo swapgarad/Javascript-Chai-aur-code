@@ -73,3 +73,39 @@ console.log(typeof myObj);                         //===>>> output is object
 // REFERENCE STUDY FOR DATATYPES:
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// +++++++++++++++++++++++++++++ MEMORIES OF DATATYPES TO STORE ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// 1) Stack Memory (used to store PREMITIVE DATATYPES)   
+
+// It always gave copy of value from previous stack/cupboard.ALL THE CHANGES/UPDATES YOU HAVE DONE IS NOT TO THE ORIGINAL VALUES BUT TO COPY OF IT.
+
+let myYoutubename = "swapnilgarad"
+
+let anothername = myYoutubename
+
+ anothername = "swap_world"
+
+console.log(myYoutubename);  //====>>> output is "swapnilgarad"
+
+console.log(anothername);     //====>>> output is "swap_world"
+
+// 2)Heap Memory ( used to store Non-Premitive/Reference Data Types)
+  
+// it always give reference to originsl value & directly refered to one big memory heap/basket. ALL THE CHANGES/UPDATES YOU HAVE DONE IS TO THE ORIGINAL VALUES
+
+let userOne = {
+    email : "swapnil@google.com",
+    upi:"swapnil@ybl"
+};
+
+let userTwo = userOne 
+
+userTwo.email = "swapnilgarad@google.com"
+
+console.log(userOne.email);      // output is "swapnilgarad@google.com"
+console.log(userTwo.email);      // output is "swapnilgarad@google.com"

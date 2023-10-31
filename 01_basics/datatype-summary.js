@@ -68,3 +68,8 @@ console.log(typeof userEmail);              //===>>> output is undefined
 console.log(typeof myFunction);                //===>>> output is function
 console.log(typeof heros);                       //===>>> output is object with datatype as string
 console.log(typeof myObj);                         //===>>> output is object
+
+
+// REFERENCE STUDY FOR DATATYPES:
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
